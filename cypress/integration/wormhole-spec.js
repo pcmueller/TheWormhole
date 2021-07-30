@@ -65,9 +65,8 @@ describe('Show main view of Wormhole app', () => {
       .get('p').should('contain', 'Page')
   });
 
-  it('Should load the main view with top tracks country', () => {
+  it('Should load the main view with top tracks by location', () => {
     cy.get('.tracks-list').should('be.visible')
-      .get('h3').should('have.length', 3)
   });
 
   it('Should display single block of tracks onto the main view on load', () => {
