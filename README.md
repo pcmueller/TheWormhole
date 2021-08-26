@@ -28,7 +28,7 @@ As a group we agreed to use Redux, React, Router, Asynchronous JavaScript, Cypre
 ## Installation
 
 1. Clone this repo using:
-  * `git clone`  `https://github.com/bhohnco/StretchMod3`
+  * `git clone` `https://github.com/pcmueller/the-wormhole`
 2. `cd` into your cloned directory
 3. Run `npm install`
 4. Run `npm start`
