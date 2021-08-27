@@ -48,19 +48,20 @@ As a group we agreed to learn and implement Global State Management using Redux,
 1. Once loaded, the home page welcomes the user to their country of origin, with the United States set as the default location.  Displayed below are Last.fm's "Top Tracks" and "Top Artists" streaming data from that location, automatically populated in the form of two vertical lists.
 
 <p align="center">
-    <img src="https://user-images.githubusercontent.com/51062974/131189557-2a711d8e-77af-468f-9a61-652da40e0105.png" alt="home" width=500 />
+    <img src="https://user-images.githubusercontent.com/51062974/131191336-fc0330f9-ab15-4087-ab0f-8f746bf42f10.png" alt="home" width=500 />
 </p>
 
 2. In order to switch locations, a user can either select a specific country from the dropdown menu in the navigation bar, or click the "Randomize Location" button, which will randomly select an option from the list of available countries and automatically generate new streaming data for that location.
 
 |<!-- .element: style="text-align:center;" -->|<!-- .element: style="text-align:center;" -->|
-|-------|-------|
 |![](https://media.giphy.com/media/v52UWOPfVWv4fhcVmr/giphy.gif?cid=790b7611b6c7f322860b3432679a791afd86e2a6d754617a&rid=giphy.gif&ct=g)<!-- .element: style="text-align:center;" -->|![](https://media.giphy.com/media/24MgGmo8Cayo4XwQFK/giphy.gif?cid=790b76111f0129f74d68dc79be8fc6a716a769e0245c0884&rid=giphy.gif&ct=g)<!-- .element: style="text-align:center;" -->|
 
 3. If a user wants to see more information about a particular artist, they can reach that artist's "details" page by either clicking the thumbnail image of one of the "Top Artists" listed below, or by using the search bar next the dropdown menu to search for an artist by name.  
-![WH-artist-bowie](https://user-images.githubusercontent.com/51062974/131186795-2ab1b752-8946-429d-893f-b0eddb104b01.png)
 
 4. Once an artist image is clicked - or if the search returns a succesful match from the Last.fm database - the page will reroute to the appropriate "artist details" view, which will display the artist's name, image, and biography. The artist's name can be clicked to link out of the **Wormhole** domain and over to that artist's Last.fm page, where the user can learn more about the artist and stream individual songs.
+
+|<!-- .element: style="text-align:center;" -->|<!-- .element: style="text-align:center;" -->|
+|![](https://media.giphy.com/media/Kz8IWmXwfayKz5fsvJ/giphy.gif?cid=790b76118a442450a901b1544c6d86769e38feb64187b3a2&rid=giphy.gif&ct=g)<!-- .element: style="text-align:center;" -->|![](https://media.giphy.com/media/667n3fODlSxe0jDkjJ/giphy.gif?cid=790b7611caaad4126001fd545498a560fb943e8313e8df71&rid=giphy.gif&ct=g)<!-- .element: style="text-align:center;" -->|
 
 5. While on the home page, any of the "Top Tracks" can also be clicked to link out of the **Wormhole** domain and over to that songs's Last.fm page, where 
 where the user can learn more about the track and stream it if available.
