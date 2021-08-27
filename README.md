@@ -13,7 +13,7 @@ View our deployed site [H E R E](https://the-wormhole.herokuapp.com/)
 
 ## Description
 
-**A "music discovery app" using global streaming data to present users with the top artists and songs in countries around the world.**
+A "music discovery app" using global streaming data to present users with the top artists and songs in countries around the world.
 
 This was a group project in which were given two weeks to push ourselves to learn a new technology, as well as to reinforce our knowledge of React and associated libraries and technologies.
 
@@ -57,7 +57,10 @@ As a group we agreed to learn and implement Global State Management using Redux,
 
 4. Once an artist image is clicked - or if the search returns a succesful match from the Last.fm database - the page will reroute to the appropriate "artist details" view, which will display the artist's name, image, and biography. The artist's name can be clicked to link out of the **Wormhole** domain and over to that artist's Last.fm page, where the user can learn more about the artist and stream individual songs.
 
-5. In order to return to the home page, a user can click either the "Return Home" button in the header, or the _W O R M H O L E_ page title itself.  
+5. While on the home page, any of the "Top Tracks" can also be clicked to link out of the **Wormhole** domain and over to that songs's Last.fm page, where 
+where the user can learn more about the track and stream it if available.
+
+5. In order to return to the home page from the "artist details" view, a user can click either the "Return Home" button or the _W O R M H O L E_ page title itself, both in the page header.  
 
 ## Learning Goals
 
