@@ -1,6 +1,6 @@
 ![WH-banner](https://user-images.githubusercontent.com/51062974/131181893-7ba2f478-956b-46bf-853f-a53d3f88a2fc.png)
 
-<p align="center">connecting music fans all over the world</p>
+<p align="center" style="color:blue;font-style:italic;">connecting music fans all over the world</p>
 
 * [Deployed Site](https://the-wormhole.herokuapp.com/)
 
@@ -17,7 +17,7 @@ A "music discovery app" using global streaming data to present users with the mo
 
 This was a group project in which were given two weeks to push ourselves to learn a new technology, as well as to reinforce our knowledge of React and associated libraries and technologies.
 
-As a group we agreed to use Redux, React, Router, asynchronous JavaScript, Cypress testing, and conditional rendering. The Assignment Rubric & Spec for this project can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html)
+As a group we agreed to use Redux, React, Router, asynchronous JavaScript, Cypress testing, and UI design using Sass. The assignment rubric & spec for this project can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html)
 
 ## Notable Features
 
