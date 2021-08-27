@@ -1,6 +1,6 @@
 ![WH-banner](https://user-images.githubusercontent.com/51062974/131181893-7ba2f478-956b-46bf-853f-a53d3f88a2fc.png)
 
-<p align="center" style="font-style:italics;">connecting music fans all over the world</p>
+<p align="center"><em>connecting music fans all over the world</em></p>
 
 * [Deployed Site](https://the-wormhole.herokuapp.com/)
 
@@ -13,11 +13,11 @@
 
 ## Description
 
-A "music discovery app" using global streaming data to present users with the most commonly streamed artists and songs in most countries around the world.
+**A "music discovery app" using global streaming data to present users with the top artists and songs in countries around the world.**
 
 This was a group project in which were given two weeks to push ourselves to learn a new technology, as well as to reinforce our knowledge of React and associated libraries and technologies.
 
-As a group we agreed to use Redux, React, Router, asynchronous JavaScript, Cypress testing, and UI design using Sass. The assignment rubric & spec for this project can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html)
+As a group we agreed to learn and implement Global State Management using Redux, layered into React in cooperation with Router, asynchronous JavaScript, Cypress testing, and UI design using Sass. The assignment rubric & spec for this project can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html)
 
 ## Notable Features
 
@@ -46,11 +46,14 @@ As a group we agreed to use Redux, React, Router, asynchronous JavaScript, Cypre
 ## Walkthrough
 
 1. Once loaded, the home page welcomes the user to their country of origin, with the United States set as the default location.  Displayed below are Last.fm's "Top Tracks" and "Top Artists" streaming data from that location, automatically populated in the form of two vertical lists.
-<img width="450" height="400" alt="Home Page View" src="https://user-images.githubusercontent.com/51062974/131179730-f361fcfd-a5d2-4dbd-a382-23aa856bf65c.png">
+![WH-home-glow-US](https://user-images.githubusercontent.com/51062974/131186705-dcc3663c-8a9a-4ab6-8da2-a5a8e7c5179d.png)
 
 2. In order to switch locations, a user can either select a specific country from the dropdown menu in the navigation bar, or click the "Randomize Location" button above, which will randomly select an option from the list of available countries and automatically generate new streaming data for that location.
+![WH-dropdown](https://user-images.githubusercontent.com/51062974/131186719-321d5b7f-01a3-4625-90b2-4c9f6b0a34a7.png)
+![WH-home-glow-AR](https://user-images.githubusercontent.com/51062974/131186757-91d2f80c-4c2c-454f-944a-587b1e996a52.png)
 
 3. If a user wants to see more information about a particular artist, they can reach that artist's "details" page by either clicking the thumbnail image of one of the "Top Artists" listed below, or by using the search bar next the dropdown menu to search for an artist by name.  
+![WH-artist-bowie](https://user-images.githubusercontent.com/51062974/131186795-2ab1b752-8946-429d-893f-b0eddb104b01.png)
 
 4. Once an artist image is clicked - or if the search returns a succesful match from the Last.fm database - the page will reroute to the appropriate "artist details" view, which will display the artist's name, image, and biography. The artist's name can be clicked to link out of the **Wormhole** domain and over to that artist's Last.fm page, where the user can learn more about the artist and stream individual songs.
 
@@ -58,25 +61,16 @@ As a group we agreed to use Redux, React, Router, asynchronous JavaScript, Cypre
 
 ## Learning Goals
 
-* Further understand and implement modularity of Reacts Component structure with SCSS styling
-* Build on React Application using the *Global State Management* tool, Redux
-* Test all Component flows and Asynchronous JavaScript using cypress
-
-## Evolution of the Project
-
-We were given this project as an opportunity to stretch ourselves to learn a new technology and implement it.  All of our work to better learn React, Cypress, Router and finally Redux was independent of our instructors. We met as a team every day to pull apart our iterations and apply what we were learning on Redux together, and to make sure we were on track with our work/life balance goals. As a team we found our other classmates to be a huge resource in discovering how redux is best applied in an application.
+* Successfully implement Global State Mangement using Redux, build over an existing React application.
+* Further understand and incorporate React's modular component structure by integrating SCSS styling.
+* Test all Component flows, asynchronous JavaScript, and conditional rendering using Cypress.
 
 ## Future Iterations
 
-* Refactor all of modular files for best practice approaches for redux, to ensure all user flows are accounted for
+* Refactor all Redux files for best practices, using actions, reducers, and thunks as appropriately and efficiently as possible.
+* Build out functionality to allow users to save their favorite artists and tracks.
+* Implement ARIA inside the React component structure to verify that our page is truly accessible.
 
-* Access to the images paired in our artists api
-  * This may mean the use of a new api
-  * Otherwise we will implement a crawler to help grab the images from the wiki pages our api has them living on, at the moment
-
-* Implementing Aria inside the react component structure to verify that our page is truly accessible
-
-* Creating the ability to save our users favorites
 
 ## Authors
 
