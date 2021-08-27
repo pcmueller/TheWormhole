@@ -1,6 +1,6 @@
 ![WH-banner](https://user-images.githubusercontent.com/51062974/131181893-7ba2f478-956b-46bf-853f-a53d3f88a2fc.png)
 
-<p align="center"><em>connecting music fans all over the world</em></p>
+<p align="center"><em>~connecting music fans all over the world~</em></p>
 
 View our deployed site [H E R E](https://the-wormhole.herokuapp.com/)
 
@@ -80,7 +80,7 @@ where the user can learn more about the track and stream it if available.
 
 ## Future Iterations
 
-* Refactor all Redux files for best practices, using actions, reducers, and thunks as appropriately and efficiently as possible.
+* Refactor all Redux files for best GSM practices, using actions, reducers, and thunks as appropriately and efficiently as possible.
 * Build out functionality to allow users to save their favorite artists and tracks.
 * Implement ARIA inside the React component structure to verify that our page is truly accessible.
 
