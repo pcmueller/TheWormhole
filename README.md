@@ -61,7 +61,6 @@ As a group we agreed to learn and implement Global State Management using Redux,
 4. Once an artist image is clicked - or if the search returns a succesful match from the Last.fm database - the page will reroute to the appropriate "artist details" view, which will display the artist's name, image, and biography. The artist's name can be clicked to link out of the **Wormhole** domain and over to that artist's Last.fm page, where the user can learn more about the artist and stream individual songs.
 
 ![](https://media.giphy.com/media/Kz8IWmXwfayKz5fsvJ/giphy.gif?cid=790b76118a442450a901b1544c6d86769e38feb64187b3a2&rid=giphy.gif&ct=g)<!-- .element: style="text-align:center;" -->
-![](https://media.giphy.com/media/667n3fODlSxe0jDkjJ/giphy.gif?cid=790b7611caaad4126001fd545498a560fb943e8313e8df71&rid=giphy.gif&ct=g)<!-- .element: style="text-align:center;" -->
 
 5. While on the home page, any of the "Top Tracks" can also be clicked to link out of the **Wormhole** domain and over to that songs's Last.fm page, where 
 where the user can learn more about the track and stream it if available.
