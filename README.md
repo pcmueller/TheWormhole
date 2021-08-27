@@ -44,7 +44,7 @@ As a group we agreed to use Redux, React, Router, asynchronous JavaScript, Cypre
 ## Walkthrough
 
 1. Once loaded, the home page welcomes the user to their country of origin, with the United States set as the default location.  Displayed below are Last.fm's "Top Tracks" and "Top Artists" streaming data from that location, automatically populated in the form of two vertical lists.
-<img width="500" height="350" alt="Home Page View" src="https://user-images.githubusercontent.com/51062974/131179730-f361fcfd-a5d2-4dbd-a382-23aa856bf65c.png">
+<img width="450" height="400" alt="Home Page View" src="https://user-images.githubusercontent.com/51062974/131179730-f361fcfd-a5d2-4dbd-a382-23aa856bf65c.png">
 
 2. In order to switch locations, a user can either select a specific country from the dropdown menu in the navigation bar, or click the "Randomize Location" button above, which will randomly select an option from the list of available countries and automatically generate new streaming data for that location.
 
