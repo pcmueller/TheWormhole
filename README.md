@@ -1,8 +1,8 @@
-# [W O R M H O L E](https://the-wormhole.herokuapp.com/)
-
-![](https://media.giphy.com/media/xplgqTG6j7MiTf5acF/giphy.gif?cid=790b7611ad9baabdaac356c6b1751deb1b67b03afd0fe0c6&rid=giphy.gif&ct=g)
+![WH-banner](https://user-images.githubusercontent.com/51062974/131181893-7ba2f478-956b-46bf-853f-a53d3f88a2fc.png)
 
 _connecting music fans all over the world_
+
+** [Deployed Site](https://the-wormhole.herokuapp.com/)
 
 ## Table of Contents
 * [Description](#description)
