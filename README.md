@@ -1,6 +1,6 @@
 ![WH-banner](https://user-images.githubusercontent.com/51062974/131181893-7ba2f478-956b-46bf-853f-a53d3f88a2fc.png)
 
-<p align="center" font-style="italic">connecting music fans all over the world</p>
+<p align="center" font-style="italics">connecting music fans all over the world</p>
 
 * [Deployed Site](https://the-wormhole.herokuapp.com/)
 
@@ -13,7 +13,7 @@
 
 ## Description
 
-Would you like to find new music no matter how far away it was created? Are you about to travel and want to listen to the local top 10 hits on the plane ride over?  Then welcome to our _Wormhole_ music listening app.
+Would you like to find new music no matter how far away it was created? Are you about to travel and want to listen to the local top 10 hits on the plane ride over?  Then welcome to our _W O R M H O L E_ music listening app.
 
 This was a group project in which were given two weeks to push ourselves to learn a new technology, as well as to reinforce our knowledge of React and associated libraries and technologies.
 
