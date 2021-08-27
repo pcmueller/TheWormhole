@@ -45,7 +45,7 @@ As a group we agreed to learn and implement Global State Management using Redux,
 
 ## Walkthrough
 
-1. Once loaded, the home page welcomes the user to their country of origin, with the United States set as the default location.  Displayed below are Last.fm's "Top Tracks" and "Top Artists" streaming data from that location, automatically populated in the form of two vertical lists.
+1. Once loaded, the home page welcomes the user to their country of origin, with the United States set as the default location.  Displayed below is the Last.fm "Top Tracks" and "Top Artists" streaming data from that location, automatically populated into two vertical lists.
 
 <p align="center">
     <img src="https://user-images.githubusercontent.com/51062974/131191336-fc0330f9-ab15-4087-ab0f-8f746bf42f10.png" alt="home" width=500 />
@@ -61,12 +61,16 @@ As a group we agreed to learn and implement Global State Management using Redux,
 
 4. Once an artist image is clicked - or if the search returns a succesful match from the Last.fm database - the page will reroute to the appropriate "artist details" view, which will display the artist's name, image, and biography. The artist's name can be clicked to link out of the **Wormhole** domain and over to that artist's Last.fm page, where the user can learn more about the artist and stream individual songs.
 
-![](https://media.giphy.com/media/NT383udjkmQnPoXeIa/giphy.gif?cid=790b761199c3c655f3bd98592543f14a8832235e063282ea&rid=giphy.gif&ct=g)<!-- .element: style="text-align:center;" -->
+
+<p align="center">
+    <img src="https://media.giphy.com/media/NT383udjkmQnPoXeIa/giphy.gif?cid=790b761199c3c655f3bd98592543f14a8832235e063282ea&rid=giphy.gif&ct=g" alt="artist info" width=500 />
+</p>
+
 
 5. While on the home page, any of the "Top Tracks" can also be clicked to link out of the **Wormhole** domain and over to that songs's Last.fm page, where 
 where the user can learn more about the track and stream it if available.
 
-5. In order to return to the home page from the "artist details" view, a user can click either the "Return Home" button or the _W O R M H O L E_ page title itself, both in the page header.  
+5. In order to return to the home page from the "artist details" view, a user can click either the "Return Home" button or the _WORMHOLE_ page title itself, both in the page header.  
 
 ## Learning Goals
 
