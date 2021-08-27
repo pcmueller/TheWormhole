@@ -47,15 +47,12 @@ As a group we agreed to learn and implement Global State Management using Redux,
 
 1. Once loaded, the home page welcomes the user to their country of origin, with the United States set as the default location.  Displayed below are Last.fm's "Top Tracks" and "Top Artists" streaming data from that location, automatically populated in the form of two vertical lists.
 
-|<!-- .element: style="text-align:center;" -->|
-|-------|
+
 |![](https://media.giphy.com/media/24MgGmo8Cayo4XwQFK/giphy.gif?cid=790b76111f0129f74d68dc79be8fc6a716a769e0245c0884&rid=giphy.gif&ct=g)<!-- .element: style="text-align:center;" -->|
 
 2. In order to switch locations, a user can either select a specific country from the dropdown menu in the navigation bar, or click the "Randomize Location" button above, which will randomly select an option from the list of available countries and automatically generate new streaming data for that location.
 
-|<!-- .element: style="text-align:center;" -->|<!-- .element: style="text-align:center;" -->|
-|-------|-------|
-|![](https://user-images.githubusercontent.com/51062974/131186719-321d5b7f-01a3-4625-90b2-4c9f6b0a34a7.png)<!-- .element: style="text-align:center;" -->|![](https://user-images.githubusercontent.com/51062974/131186757-91d2f80c-4c2c-454f-944a-587b1e996a52.png)<!-- .element: style="text-align:center;" -->|
+<img align="center" src="https://user-images.githubusercontent.com/51062974/131186719-321d5b7f-01a3-4625-90b2-4c9f6b0a34a7.png" alt="randomize location GIF" width="500" height="auto" />
 
 3. If a user wants to see more information about a particular artist, they can reach that artist's "details" page by either clicking the thumbnail image of one of the "Top Artists" listed below, or by using the search bar next the dropdown menu to search for an artist by name.  
 ![WH-artist-bowie](https://user-images.githubusercontent.com/51062974/131186795-2ab1b752-8946-429d-893f-b0eddb104b01.png)
