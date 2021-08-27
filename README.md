@@ -46,11 +46,11 @@ As a group we agreed to learn and implement Global State Management using Redux,
 ## Walkthrough
 
 1. Once loaded, the home page welcomes the user to their country of origin, with the United States set as the default location.  Displayed below are Last.fm's "Top Tracks" and "Top Artists" streaming data from that location, automatically populated in the form of two vertical lists.
-![WH-home-glow-US](https://user-images.githubusercontent.com/51062974/131186705-dcc3663c-8a9a-4ab6-8da2-a5a8e7c5179d.png)
+|<!-- .element: style="text-align:center;" -->|
+|-------|
+|![](https://user-images.githubusercontent.com/51062974/131186705-dcc3663c-8a9a-4ab6-8da2-a5a8e7c5179d.png)<!-- .element: style="text-align:center;" -->|
 
 2. In order to switch locations, a user can either select a specific country from the dropdown menu in the navigation bar, or click the "Randomize Location" button above, which will randomly select an option from the list of available countries and automatically generate new streaming data for that location.
-![WH-dropdown]()
-![WH-home-glow-AR]()
 
 |<!-- .element: style="text-align:center;" -->|<!-- .element: style="text-align:center;" -->|
 |-------|-------|
