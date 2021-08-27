@@ -1,8 +1,8 @@
 ![WH-banner](https://user-images.githubusercontent.com/51062974/131181893-7ba2f478-956b-46bf-853f-a53d3f88a2fc.png)
 
-_connecting music fans all over the world_
+<p align="center">_connecting music fans all over the world_</p>
 
-** [Deployed Site](https://the-wormhole.herokuapp.com/)
+* [Deployed Site](https://the-wormhole.herokuapp.com/)
 
 ## Table of Contents
 * [Description](#description)
