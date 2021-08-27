@@ -15,15 +15,16 @@ Would you like to find new music no matter how far away it was created? Are you 
 
 This was a group project in which were given two weeks to push ourselves to learn a new technology, as well as to reinforce our knowledge of React and associated libraries and technologies.
 
-As a group we agreed to use Redux, React, Router, Asynchronous JavaScript, Cypress end to end acceptance testing, and conditional rendering. The Rubric & Spec for this project can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html)
+As a group we agreed to use Redux, React, Router, asynchronous JavaScript, Cypress testing, and conditional rendering. The Assignment Rubric & Spec for this project can be found [here](https://frontend.turing.edu/projects/module-3/stretch.html)
 
 ## Notable Features
 
-* The choice to see music by Country or the Randomization of music from new countries
-* Lists of artists by Country
-* List of top hits by country
-* Cypress testing to test user flows
-* Responsive and Responsible - can be used on all screen sizes with considerations for tabbing, color choices, and button sizing for easer of UX
+* Custom-built dataset of all countries with valid Last.fm data allows user to manually select or randomize a location and render the top artists and tracks in a given country via Last.fm API
+* Additional API request to retrieve and display individual "artist bio" pages.
+* Generates individual artist images using another proprietary dataset, built personally using links to license-free images on Wikimedia Commons and matching image links to API data.
+* Integrates global state using Redux, implemented mid-development over existing codebase.
+* Thoroughly tested using Cypress integration testing of all user flows
+* Responsive design: can be used on all screen sizes with considerations for tabbing, color choices, and button sizing for enhanced UX
 
 ## Installation
 
@@ -32,12 +33,6 @@ As a group we agreed to use Redux, React, Router, Asynchronous JavaScript, Cypre
 2. `cd` into your cloned directory
 3. Run `npm install`
 4. Run `npm start`
-
-#### Learn More
-
-You can learn more about creating apps using `React` and `JSX` here: [Create React App Documentation](https://create-react-app.dev/docs/getting-started/)
-
-For more about combining `React` with `Redux` here: [React Redux Documentation](https://react-redux.js.org/introduction/getting-started)
 
 #### Cypress Testing
 
@@ -48,13 +43,16 @@ For more about combining `React` with `Redux` here: [React Redux Documentation](
 
 ## Walkthrough
 
-1. Once the app is accessed, a user is immediately shown a welcoming page with a newly randomized locations music list
+1. Once loaded, the home page welcomes the user to their country of origin, with the United States set as the default location.  Displayed below are Last.fm's "Top Tracks" and "Top Artists" streaming data from that location, automatically populated in the form of two vertical lists.
+<img width="500" height="350" alt="Home Page View" src="https://user-images.githubusercontent.com/51062974/131179730-f361fcfd-a5d2-4dbd-a382-23aa856bf65c.png">
 
-<img width="500" height="350" alt="Home Page View" src="https://user-images.githubusercontent.com/51062974/127602586-9c165e34-b33b-4870-99fd-009520612945.png">
+2. In order to switch locations, a user can either select a specific country from the dropdown menu in the navigation bar, or click the "Randomize Location" button above, which will randomly select an option from the list of available countries and automatically generate new streaming data for that location.
 
-2. There is an artist list and a top tracks list
+3. If a user wants to see more information about a particular artist, they can reach that artist's "details" page by either clicking the thumbnail image of one of the "Top Artists" listed below, or by using the search bar next the dropdown menu to search for an artist by name.  
 
-3. To access a specific Country, there is a drop down menu to search specific for specific music in each Once
+4. Once an artist image is clicked - or if the search returns a succesful match from the Last.fm database - the page will reroute to the appropriate "artist details" view, which will display the artist's name, image, and biography. The artist's name can be clicked to link out of the **Wormhole** domain and over to that artist's Last.fm page, where the user can learn more about the artist and stream individual songs.
+
+5. In order to return to the home page, a user can click either the "Return Home" button in the header, or the _W O R M H O L E_ page title itself.  
 
 ## Learning Goals
 
@@ -100,7 +98,7 @@ We were given this project as an opportunity to stretch ourselves to learn a new
         <td>JavaScript</td>
         <td>React</td>
         <td>Redux</td>
-        <td>React Router</td>
+        <td>Router</td>
         <td>HTML</td>
         <td>CSS</td>
         <td>Sass</td>
