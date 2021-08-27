@@ -13,7 +13,7 @@
 
 ## Description
 
-Would you like to find new music no matter how far away it was created? Are you about to travel and want to listen to the local top 10 hits on the plane ride over?  Then welcome to our _W O R M H O L E_ music listening app.
+A "music discovery app" using global streaming data to present users with the most commonly streamed artists and songs in most countries around the world.
 
 This was a group project in which were given two weeks to push ourselves to learn a new technology, as well as to reinforce our knowledge of React and associated libraries and technologies.
 
