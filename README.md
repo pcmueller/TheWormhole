@@ -1,5 +1,7 @@
 # [W O R M H O L E](https://the-wormhole.herokuapp.com/)
 
+![](https://media.giphy.com/media/xplgqTG6j7MiTf5acF/giphy.gif?cid=790b7611ad9baabdaac356c6b1751deb1b67b03afd0fe0c6&rid=giphy.gif&ct=g)
+
 _connecting music fans all over the world_
 
 ## Table of Contents
