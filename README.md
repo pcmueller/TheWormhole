@@ -2,7 +2,7 @@
 
 <p align="center"><em>connecting music fans all over the world</em></p>
 
-####[Deployed Site](https://the-wormhole.herokuapp.com/)
+View our deployed site [H E R E](https://the-wormhole.herokuapp.com/)
 
 ## Table of Contents
 * [Description](#description)
